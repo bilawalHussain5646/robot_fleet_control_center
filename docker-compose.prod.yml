@@ -1,0 +1,10 @@
+services:
+  backend:
+    restart: unless-stopped
+    environment:
+      JWT_SECRET: ${JWT_SECRET}
+      DATABASE_URL: ${DATABASE_URL}
+  frontend:
+    restart: unless-stopped
+  nginx:
+    restart: unless-stopped
