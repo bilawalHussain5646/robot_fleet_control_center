@@ -1,4 +1,4 @@
-# Robot Fleet Control Center
+# AI Powered Robot Fleet Control Center
 
 A production-style Robot Fleet Management and Monitoring Platform with a React dashboard, FastAPI backend, PostgreSQL, Redis, live WebSocket robot telemetry, command APIs, task management, alerts, maintenance, analytics, camera simulation, audit logs, and a mock AI fleet assistant.
 
